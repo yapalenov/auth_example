@@ -1,0 +1,37 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "Task 3",
+  "main": "src/server.js",
+  "devDependencies": {
+    "@babel/node": "^7.12.1",
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@babel/runtime": "^7.12.1",
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.15",
+    "@types/supertest": "^2.0.10",
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2",
+    "supertest": "^6.0.0"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npm run build && node dist/server.js",
+    "dev": "nodemon --exec babel-node src/server.js",
+    "test": "npm run build && jest"
+  },
+  "author": "Palenov",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^1.18.11"
+  }
+}

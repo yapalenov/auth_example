@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Иван",
+    "email": "test@test.ru",
+    "password": "$2b$10$R36ubGaqEMzHuvBZygOCcuUeyFD.9u0XAs.eBbOOcNLxdM8HA7Nc6"
+  },
+  {
+    "id": 2,
+    "name": "Иван",
+    "email": "test2@test.ru",
+    "password": "$2b$10$mKHLXxVwN/ArM4uj7wfcOuB5bvTLUXLUz60hFp00Rbob6GAmXtkM2"
+  }
+]
